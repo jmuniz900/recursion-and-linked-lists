@@ -14,7 +14,7 @@ struct node {
 class linkedlist {
 private:
     node * head;
-    int count(); // RECURSIVE
+    int count(linkedlist list, int count); // RECURSIVE
     int sum(); // RECURSIVE
 
 public:
